@@ -1,0 +1,69 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif; /* Changed font to Poppins */
+    margin: 0;
+    padding: 0;
+    line-height: 1.8; /* Slightly increased line height for readability */
+    background-color: #f4f4f4;
+    color: #000; /* Changed text color to black */
+}
+
+header {
+    background: #444;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem; /* Increased font size for header */
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem; /* Increased font size for subheadings */
+    color: #444;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.artwork {
+    margin-bottom: 2rem;
+}
+
+.artwork img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.artwork-caption {
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+.floor-plan {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #444;
+    color: #fff;
+}
+
+/* Increased text size for paragraphs */
+p {
+    font-size: 1.2rem; /* Increased font size for general text */
+    margin-bottom: 1.5rem;
+}
